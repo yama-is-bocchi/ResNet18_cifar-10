@@ -327,5 +327,8 @@ def demo():
         pred = pred[0].argmax()
 
         print(f'predict: {dataset.classes[pred]}, true: {img_path.stem}')
-
+      
+#学習,検証
+train_eval()
+#デモ
 demo()
